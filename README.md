@@ -179,5 +179,5 @@ uint32_t USB_GetData(uint8_t *data,uint32_t dataNum)
 }
 ```
 
-9.到此，自定义HID基本讲解完毕，本文在main函数中实现一个USB_Mission应用。大体思路如下：判断有没有上位机发送过来的数据，如果有则解码数据，根据解析的数据回送上位机需要的数据。详情请查看代码。完整的代码GitHub地址。
+9.到此，自定义HID基本讲解完毕，本文在main函数中实现一个USB_Mission应用。大体思路如下：判断有没有上位机发送过来的数据，如果有则解码数据，根据解析的数据回送上位机需要的数据。详情请查看代码。完整的代码[GitHub地址](https://github.com/SC-Electronic/STM32-customed-HID.git)。
 
